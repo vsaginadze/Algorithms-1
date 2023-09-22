@@ -4,4 +4,5 @@ The main goal of this course is to understand the time and space complexity and 
 
 * Week-1
   - [ ] Notes
-  -[ ] Exercises
+  - [ ] Exercises
+
