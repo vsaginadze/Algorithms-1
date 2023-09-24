@@ -3,10 +3,10 @@
 The main goal of this course is to understand the time and space complexity and get familiar with basic data structures and algorithms
 
 * Week-1
-  - [ ] Notes
-  - [ ] Exercises
+  - [x] Notes
+  - [x] Exercises
 * Week-2
-  - [ ] Notes
+  - [x] Notes
   - [ ] Exercises
 * Week-3
   - [ ] Notes
