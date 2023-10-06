@@ -9,8 +9,8 @@ The main goal of this course is to understand the time and space complexity and 
   - [x] Notes
   - [x] Exercises
 * Week-3
-  - [ ] Notes
-  - [ ] Exercises
+  - [x] Notes
+  - [x] Exercises
   * Opt:
     * [Harvard CS50 Asymptotic Notation](https://www.youtube.com/watch?v=iOq5kSKqeR4)
     * [Big O Notation Mathematical Explanation (00:00-14:20)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN&index=3)
