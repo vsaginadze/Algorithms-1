@@ -6,10 +6,10 @@ def convert_to_binary(N):
     res = ""
 
     while N > 0:
-        res += str(N % 2)
+        res = str(N % 2) + res
         N //= 2
     
-    return res[::-1]
+    return res
 
 while N > 0:
     print(convert_to_binary(N))
