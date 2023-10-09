@@ -18,6 +18,8 @@ The main goal of this course is to understand the time and space complexity and 
 * Week-4
   - [x] Notes
   - [x] Exercises
+  * Opt:
+    * [Binary Search: Leetcode tutorial](https://leetcode.com/explore/learn/card/binary-search/)
 * Week-5
   - [ ] Notes
   - [ ] Exercises
