@@ -14,7 +14,6 @@ def search(nums, target):
     lo, hi = 0, len(nums)-1
     while lo <= hi:
         mid = (lo + hi) // 2
-
         if mid == len(nums)-1:
             right = len(nums)-1
             left = 0
@@ -31,7 +30,7 @@ def search(nums, target):
             right = len(nums)-1
         else:
             left = 0
-            right = lo-1
+            right = lo
     else:
         left, right = 0, len(nums)-1
 
@@ -48,4 +47,4 @@ def search(nums, target):
 
     return -1
 
-print(search([3, 5, 1], 5))
+print(search([5, 1, 3], 5))
