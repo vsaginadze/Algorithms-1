@@ -20,6 +20,10 @@ The main goal of this course is to understand the time and space complexity and 
   - [x] Exercises
   * Opt:
     * [Binary Search: Leetcode tutorial](https://leetcode.com/explore/learn/card/binary-search/)
+        -[x] Template I
+        -[x] Tempalte II
+        -[ ] Template III
+        -[ ] Conclusion
 * Week-5
   - [x] Notes
   - [ ] Exercises
