@@ -96,6 +96,8 @@ merge([-1, 4, 5], [-5, 0, 7]) -> [-5, -1, 0, 4, 5, 7]
 
 '''
 recursive functions attempt to convert each splitted array into sorted one
-    * it does it by splitt
+    * it does it by splitting the array in half until the size of array reaces one
+    * than merges arrays into sorted ones and builds from there
+    
 than merge tham into one sorted array
 '''
