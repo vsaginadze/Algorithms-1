@@ -14,16 +14,7 @@ def merge(a, b, c):
         else:
             c[k] = b[j]
             j += 1
-    
-    print(c)
 
-
-
-a = [3, 5, 7, 10]
-b = [-1, 6, 11]
-c = (len(a) + len(b)) * [0]
-
-merge(a, b, c)
 
 '''
 a and b are sorted
