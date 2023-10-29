@@ -21,7 +21,7 @@ The main goal of this course is to understand the time and space complexity and 
   * Opt:
     * [Binary Search: Leetcode tutorial](https://leetcode.com/explore/learn/card/binary-search/)
 * Week-5
-  - [ ] Notes
+  - [x] Notes
   - [ ] Exercises
 * Week-6
   - [ ] Notes
