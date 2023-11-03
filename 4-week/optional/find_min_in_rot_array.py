@@ -1,4 +1,4 @@
-def findMin(self, nums) -> int:
+def findMinInRotatedArray(self, nums) -> int:
     if len(nums) == 1:
         return nums[0]
 
