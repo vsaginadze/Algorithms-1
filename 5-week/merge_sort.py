@@ -15,5 +15,5 @@ def merge_sort(a):
     merge(left, right, a)
     return a
 
-a = [4, -1, 5, 0, 7, -5]
+a = [3, 1, 0, 2, 7, 5, 6]
 print(merge_sort(a))
