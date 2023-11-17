@@ -16,4 +16,5 @@ def merge_sort(a):
     return a
 
 a = [3, 1, 0, 2, 7, 5, 6]
+a = reversed(a)
 print(merge_sort(a))
