@@ -28,8 +28,7 @@ The main goal of this course is to understand the time and space complexity and 
   - [x] Notes
   - [x] Exercises
 * Week-6
-  - [ ] Notes
-  - [ ] Exercises
+  - [x] Notes
 * Week-7
   - [ ] Notes
   - [ ] Exercises

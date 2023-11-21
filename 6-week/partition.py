@@ -27,3 +27,5 @@ def partition(a, lo, hi):
         a[i], a[j] = a[j], a[i]
         i += 1
         j -= 1
+
+partition([6, 5, 1, 3, 8, 7, 2, 4], 0, 8)

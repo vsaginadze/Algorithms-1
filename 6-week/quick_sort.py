@@ -11,4 +11,4 @@ def qsort(a, lo, hi):
 def quicksort(a):
     qsort(a, 0, len(a))
 
-quicksort([6, 5, 1, 3, 8, 7, 2, 4])
+quicksort([3, 4, 5, 1, 0, 2])
