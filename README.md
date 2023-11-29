@@ -30,7 +30,7 @@ The main goal of this course is to understand the time complexity and get famili
 * Week-6
   - [x] Notes
 * Week-7
-  - [ ] Notes
+  - [x] Notes
   - [ ] Exercises
 * Week-8
   - [ ] Notes
