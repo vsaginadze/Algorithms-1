@@ -1,9 +1,7 @@
 '''Write a function mirror(t) that modifies a binary tree, 
 flipping it from left to right so that it looks like a mirror image of the original tree.'''
 
-
 from node import Node
- 
 
 def mirror(t):
     if t == None:
