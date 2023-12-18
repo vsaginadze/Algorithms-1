@@ -16,7 +16,7 @@ def check_max(max_left, max_right, max_in_3):
 def max_in_tree(t):
     if t == None:
         return
-    if t.left != None or t.right != None:
+    if t.left or t.right:
         max_left = max_in_tree(t.left)
         max_right = max_in_tree(t.right)
 
