@@ -2,6 +2,7 @@
 Write a function completeTree(h) that builds a complete binary tree of height h. 
 Every node's value should be that node's depth.
 '''
+
 from node import Node
 
 def completeTree(h, d = 0):

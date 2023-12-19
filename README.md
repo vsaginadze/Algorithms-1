@@ -47,7 +47,3 @@ The main goal of this course is to understand the time complexity and get famili
 * Week-12
   - [ ] Notes
   - [ ] Exercises
-* Week-13
-  - [ ] Notes
-  - [ ] Exercises
-
