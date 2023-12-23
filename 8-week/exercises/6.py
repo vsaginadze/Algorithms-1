@@ -18,7 +18,8 @@ class TreeSet:
         else:
             return True
     
-    def add()
+    def add():
+        pass
         
 
 right =  Node(20, Node(15), Node(23))

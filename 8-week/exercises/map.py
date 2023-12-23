@@ -77,14 +77,3 @@ class Map:
         We won't give an implementation of this operation here, but writing this yourself is an excellent (and somewhat challenging) exercise.
         '''
 
-
-my_map = Map()
-
-my_map.set(10, "ten")
-my_map.set(11, "eleven")
-my_map.set(9, "nine")
-my_map.set(12, "twelve")
-my_map.set(0, "zero")
-my_map.set(10, "Ten")
-
-my_map.display()
