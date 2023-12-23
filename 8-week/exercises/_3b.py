@@ -9,7 +9,7 @@ def max_in_tree(t):
         if t.right:
             t = t.right
         else:
-            return t.val
+            return t.value
 
 
 root = Node(5, Node(3, Node(2), Node(4)))

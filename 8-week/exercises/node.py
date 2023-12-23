@@ -1,6 +1,6 @@
 class Node:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
+    def __init__(self, value, left=None, right=None):
+        self.value = value
         self.left = left
         self.right = right
 
@@ -13,7 +13,7 @@ class Node:
         """Returns list of strings, width, height, and horizontal coordinate of the root."""
         # No child.
         if self.right is None and self.left is None:
-            line = '%s' % self.val
+            line = '%s' % self.value
             width = len(line)
             height = 1
             middle = width // 2
@@ -22,7 +22,7 @@ class Node:
         # Only left child.
         if self.right is None:
             lines, n, p, x = self.left._display_aux()
-            s = '%s' % self.val
+            s = '%s' % self.value
             u = len(s)
             first_line = (x + 1) * ' ' + (n - x - 1) * '_' + s
             second_line = x * ' ' + '/' + (n - x - 1 + u) * ' '
@@ -32,7 +32,7 @@ class Node:
         # Only right child.
         if self.left is None:
             lines, n, p, x = self.right._display_aux()
-            s = '%s' % self.val
+            s = '%s' % self.value
             u = len(s)
             first_line = s + x * '_' + (n - x) * ' '
             second_line = (u + x) * ' ' + '\\' + (n - x - 1) * ' '
@@ -42,7 +42,7 @@ class Node:
         # Two children.
         left, n, p, x = self.left._display_aux()
         right, m, q, y = self.right._display_aux()
-        s = '%s' % self.val
+        s = '%s' % self.value
         u = len(s)
         first_line = (x + 1) * ' ' + (n - x - 1) * '_' + s + y * '_' + (m - y) * ' '
         second_line = x * ' ' + '/' + (n - x - 1 + u + y) * ' ' + '\\' + (m - y - 1) * ' '
