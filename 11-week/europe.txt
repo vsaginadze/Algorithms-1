@@ -1,0 +1,22 @@
+austria: germany czech slovakia hungary slovenia italy
+belgium: netherlands germany luxembourg france
+bulgaria: romania greece
+croatia: slovenia hungary
+cyprus:
+czech: germany poland slovakia
+denmark: germany sweden
+estonia: latvia
+estonia: finland
+finland: sweden
+france: luxembourg germany italy spain uk
+germany: poland luxembourg netherlands
+greece: italy
+hungary: slovakia romania slovenia
+ireland: uk
+italy: malta
+italy: slovenia
+latvia: lithuania
+lithuania: poland
+poland: slovakia
+portugal: spain
+sweden:
