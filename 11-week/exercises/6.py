@@ -1,4 +1,3 @@
-
 from collections import deque
 
 maze = [
@@ -9,7 +8,6 @@ maze = [
     ['#', '#', ' ', ' ', ' ', ' ', ' ', '#'],
     ['#', '#', '#', '#', '#', '#', '#', '#']
 ]
-
 
 def print_maze():
     for row in maze:
