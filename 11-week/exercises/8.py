@@ -36,4 +36,3 @@ def on_the_path(tree, start, goal, end):
     
 
 print(on_the_path(tree, 0, 12, 9))
-
