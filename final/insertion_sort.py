@@ -7,5 +7,6 @@ def insertion_sort(arr):
             j -= 1
         arr[j+1] = temp
     return arr
+
 arr = [-2, 5, 3, 1, -56, 7, 2, -3]
 print(insertion_sort(arr))
