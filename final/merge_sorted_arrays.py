@@ -14,11 +14,3 @@ def merge(a, b, c):
         else:
             c[k] = b[j]
             j += 1
-
-a = [3, 5, 8, 10, 12]
-b = [6, 7, 11, 15, 18]
-c = (len(a) + len(b)) * [0]
-
-merge(a, b, c)
-
-print(c)
