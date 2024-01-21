@@ -10,10 +10,10 @@ def parent(i):
 class BinaryHeap:
     def __init__(self, a):
         self.a = a
-        self.size = len(self.a)
+        self.n = len(self.a)
 
         # heapify the given array
-        for i in range(self.size - 1, -1, -1):
+        for i in range(self.n - 1, -1, -1):
             self.down_heap(i)
 
     def up_heap(self, i):
@@ -33,9 +33,9 @@ class BinaryHeap:
             l, r = left(i), right(i)
 
             j = i
-            if l < len(self.a[l]) and self.a[l] < self.a[j]:
+            if l < self.n and self.a[l] < self.a[j]:
                 j = l
-            if r < len(self.a[r]) and self.a[r] < self.a[j]:
+            if r < self.n and self.a[r] < self.a[j]:
                 j = r
             
             if j == i:
@@ -64,3 +64,7 @@ class BinaryHeap:
 def heapsort(a):
     h = BinaryHeap(a)
     h.sort()
+
+a = [3, 2, 5, 1, 4, 7, 0]
+heapsort(a)
+print(a)
