@@ -7,10 +7,14 @@ def right(i):
 def parent(i):
     return (i - 1) // 2
 
-class MinHeap:
-    def __init__(self):
-        self.heap = []
-        self.size = 0
+class BinaryHeap:
+    def __init__(self, a):
+        self.a = a
+        self.size = len(self.a)
+
+        # heapify the given array
+        for i in range(self.size - 1, -1, -1):
+            self.down_heap(i)
 
     def up_heap(self, i):
         while i > 0:
@@ -24,3 +28,33 @@ class MinHeap:
         self.a.append(x)
         self.up_heap(len(self.a) - 1)
 
+    def down_heap(self, i):
+        while True:
+            l, r = left(i), right(i)
+
+            j = i
+            if l < len(self.a[l]) and self.a[l] < self.a[j]:
+                j = l
+            if r < len(self.a[r]) and self.a[r] < self.a[j]:
+                j = r
+            
+            if j == i:
+                break
+            self.a[i], self.a[j] = self.a[j], self.a[i]
+            i = j
+            
+    def remove_smallest(self):
+        x = self.a[0]
+        self.a[0] = self.a.pop()
+        self.down_heap(0)
+        return x
+    
+    def remove_largest(self):
+        x = self.a[0]
+        self.a[0] = self.a[self.n - 1]
+        self.n -= 1
+        self.down_heap(0)
+        return x
+    
+    def sort(self):
+        pass
