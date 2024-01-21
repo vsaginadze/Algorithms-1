@@ -57,4 +57,10 @@ class BinaryHeap:
         return x
     
     def sort(self):
-        pass
+        while self.n > 0:
+            x = self.remove_largest()
+            self.a[self.n] = x
+
+def heapsort(a):
+    h = BinaryHeap(a)
+    h.sort()
