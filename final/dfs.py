@@ -14,7 +14,7 @@ def dfs(graph, start):
     def visit(v):
         print(f'visiting {v}')
         visited[v] = True
-
+        
         for w in graph[v]:
             if not visited[w]:
                 visit(w)
