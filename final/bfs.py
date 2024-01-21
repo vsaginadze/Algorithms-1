@@ -19,9 +19,11 @@ def bfs(graph, start):
 
     while len(q) > 0:
         v, dist = q.popleft()
-        print('  ' * dist + v)
+        print('  ' * dist + str(v))
 
         for w in graph[v]:
             if w not in visited:
                 q.append((w, dist + 1))
                 visited.add(w)
+
+bfs(graph, 0)
