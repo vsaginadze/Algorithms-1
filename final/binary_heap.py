@@ -64,7 +64,3 @@ class BinaryHeap:
 def heapsort(a):
     h = BinaryHeap(a)
     h.sort()
-
-a = [3, 2, 5, 1, 4, 7, 0]
-heapsort(a)
-print(a)
